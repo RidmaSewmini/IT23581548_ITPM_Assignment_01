@@ -104,15 +104,13 @@ If not installed, download from: https://git-scm.com/
 ### 2️⃣ Clone the Repository
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/RidmaSewmini/IT23581548_ITPM_Assignment_01
 ```
-
-Replace `<REPOSITORY_URL>` with the actual GitHub repository URL.
 
 ### 3️⃣ Navigate to Project Directory
 
 ```bash
-cd ITPM_Assignment_01
+cd IT23581548
 ```
 
 ---
@@ -164,9 +162,9 @@ npx playwright test --headed
 ### ▶ Run a Specific Test File
 
 ```bash
-npx playwright test tests/positive.spec.js
-npx playwright test tests/negative.spec.js
-npx playwright test tests/ui.spec.js
+npx playwright test tests/positive.spec.js --headed
+npx playwright test tests/negative.spec.js --headed
+npx playwright test tests/ui.spec.js --headed
 ```
 
 ---

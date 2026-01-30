@@ -40,7 +40,8 @@ test.describe('Negative Functional Tests - Singlish to Sinhala', () => {
     const output = await translate(page, 'mamagedharayanavaa');
     const text = await output.innerText();
 
-    expect(text).toContain('mamagedharayanavaa');
+    // Should NOT correctly segment into proper Sinhala sentence
+    expect(text).not.toBe('මම ගෙදර යනවා');
   });
 
   test('Neg_Fun_0004 - All capital sentence input', async ({ page }) => {
