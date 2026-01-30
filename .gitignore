@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Playwright generated files
+/test-results/
+/playwright-report/
+/blob-report/
+
+/playwright/.cache/
+/playwright/.auth/
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+.vscode/
